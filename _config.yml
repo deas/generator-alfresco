@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+gems: [jekyll-gist]
+
+kramdown:
+  input: GFM
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            generator alfresco
+tagline:          'Yeoman generator for Alfresco'
+description:      'A Yeomen generator based on the Alfresco all-in-one Maven archetype with some sub-generators and an opinionated project structure.'
+url:              https://binduwavell.github.io/generator-alfresco
+baseurl:          /
+
+author:
+  name:           'Bindu Wavell'
+  url:            https://twitter.com/binduwavell
+
+# Custom vars
+version:          0.9.0
+
+github:
+  repo:           https://github.com/binduwavell/generator-alfresco
